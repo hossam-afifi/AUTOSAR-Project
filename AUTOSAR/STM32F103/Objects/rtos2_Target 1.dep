@@ -1,0 +1,804 @@
+Dependencies for Project 'rtos2', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6140001::V6.14.1::ARMCLANG
+F (.\main.c)(0x60E11892)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/portable/GCC/ARM_CM3-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/RTOS2/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/inc-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/main.o -MD)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\FreeRTOS.h)(0x5EAA7808)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5F5166EE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F5166EE)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x5D8853E4)
+I (RTE\_Target_1\RTE_Components.h)(0x60DEA6B8)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x58258CCC)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F2582)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F2582)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D174C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D1778)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x58258CCC)
+I (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_can.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5D8853E4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5F5166EE)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\projdefs.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\portable.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\deprecated_definitions.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\portable\GCC\ARM_CM3\portmacro.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\mpu_wrappers.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\task.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\list.h)(0x5EAA7808)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x5F5166EE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5F5166EE)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\queue.h)(0x5EAA7808)
+I (can_app.h)(0x60DF494F)
+I (Can.h)(0x60DF37F1)
+I (std_type.h)(0x60DF3111)
+I (Platform_types.h)(0x60DF30E0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5F5166EE)
+I (Can_Cfg.h)(0x60DF2493)
+I (CanIf_Types.h)(0x60DF2554)
+I (ComStack_Types.h)(0x60DF36A7)
+I (cpu.h)(0x60DF2713)
+I (CanIf.h)(0x60DF252B)
+I (Modules.h)(0x60DF30C2)
+I (CanIf_Cfg.h)(0x60DF24EA)
+I (CanIf_ConfigTypes.h)(0x60DF259A)
+I (CanIf_SpecialPdus.h)(0x60DF257C)
+I (CanTp.h)(0x60DF266B)
+I (CanTp_Cfg.h)(0x60E03577)
+I (CanTp_Types.h)(0x60DF262F)
+F (.\can_app.c)(0x60E26B13)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/portable/GCC/ARM_CM3-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/RTOS2/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/inc-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/can_app.o -MD)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\FreeRTOS.h)(0x5EAA7808)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5F5166EE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F5166EE)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x5D8853E4)
+I (RTE\_Target_1\RTE_Components.h)(0x60DEA6B8)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x58258CCC)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F2582)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F2582)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D174C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D1778)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x58258CCC)
+I (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_can.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5D8853E4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5F5166EE)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\projdefs.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\portable.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\deprecated_definitions.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\portable\GCC\ARM_CM3\portmacro.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\mpu_wrappers.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\task.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\list.h)(0x5EAA7808)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x5F5166EE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x5F5166EE)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\queue.h)(0x5EAA7808)
+I (can_app.h)(0x60DF494F)
+I (Can.h)(0x60DF37F1)
+I (std_type.h)(0x60DF3111)
+I (Platform_types.h)(0x60DF30E0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5F5166EE)
+I (Can_Cfg.h)(0x60DF2493)
+I (CanIf_Types.h)(0x60DF2554)
+I (ComStack_Types.h)(0x60DF36A7)
+I (cpu.h)(0x60DF2713)
+I (CanIf.h)(0x60DF252B)
+I (Modules.h)(0x60DF30C2)
+I (CanIf_Cfg.h)(0x60DF24EA)
+I (CanIf_ConfigTypes.h)(0x60DF259A)
+I (CanIf_SpecialPdus.h)(0x60DF257C)
+I (CanTp.h)(0x60DF266B)
+I (CanTp_Cfg.h)(0x60E03577)
+I (CanTp_Types.h)(0x60DF262F)
+F (.\can_app.h)(0x60DF494F)()
+F (.\helper.c)(0x60E26B00)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/portable/GCC/ARM_CM3-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/RTOS2/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/inc-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/helper.o -MD)
+I (can_app.h)(0x60DF494F)
+I (Can.h)(0x60DF37F1)
+I (std_type.h)(0x60DF3111)
+I (Platform_types.h)(0x60DF30E0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5F5166EE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F5166EE)
+I (Can_Cfg.h)(0x60DF2493)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x58258CCC)
+I (RTE\_Target_1\RTE_Components.h)(0x60DEA6B8)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F2582)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F2582)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D174C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D1778)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x58258CCC)
+I (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_can.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FA3F80)
+I (CanIf_Types.h)(0x60DF2554)
+I (ComStack_Types.h)(0x60DF36A7)
+I (cpu.h)(0x60DF2713)
+I (CanIf.h)(0x60DF252B)
+I (Modules.h)(0x60DF30C2)
+I (CanIf_Cfg.h)(0x60DF24EA)
+I (CanIf_ConfigTypes.h)(0x60DF259A)
+I (CanIf_SpecialPdus.h)(0x60DF257C)
+I (CanTp.h)(0x60DF266B)
+I (CanTp_Cfg.h)(0x60E03577)
+I (CanTp_Types.h)(0x60DF262F)
+I (CanIf_Cbk.h)(0x60DF2511)
+I (CanTp_Cbk.h)(0x60DF2653)
+F (.\Can.c)(0x60E110E0)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/portable/GCC/ARM_CM3-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/RTOS2/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/inc-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/can.o -MD)
+I (Can.h)(0x60DF37F1)
+I (std_type.h)(0x60DF3111)
+I (Platform_types.h)(0x60DF30E0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5F5166EE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F5166EE)
+I (Can_Cfg.h)(0x60DF2493)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x58258CCC)
+I (RTE\_Target_1\RTE_Components.h)(0x60DEA6B8)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F2582)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F2582)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D174C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D1778)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x58258CCC)
+I (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_can.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FA3F80)
+I (CanIf_Types.h)(0x60DF2554)
+I (ComStack_Types.h)(0x60DF36A7)
+I (cpu.h)(0x60DF2713)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5F5166EE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5F5166EE)
+F (.\Can.h)(0x60DF37F1)()
+F (.\Can_Cfg.h)(0x60DF2493)()
+F (.\CanIf.c)(0x60DF4759)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/portable/GCC/ARM_CM3-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/RTOS2/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/inc-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/canif.o -MD)
+I (CanIf.h)(0x60DF252B)
+I (Modules.h)(0x60DF30C2)
+I (std_type.h)(0x60DF3111)
+I (Platform_types.h)(0x60DF30E0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5F5166EE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F5166EE)
+I (CanIf_Types.h)(0x60DF2554)
+I (ComStack_Types.h)(0x60DF36A7)
+I (CanIf_Cfg.h)(0x60DF24EA)
+I (Can.h)(0x60DF37F1)
+I (Can_Cfg.h)(0x60DF2493)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x58258CCC)
+I (RTE\_Target_1\RTE_Components.h)(0x60DEA6B8)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F2582)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F2582)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D174C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D1778)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x58258CCC)
+I (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_can.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FA3F80)
+I (cpu.h)(0x60DF2713)
+I (CanIf_ConfigTypes.h)(0x60DF259A)
+I (CanIf_SpecialPdus.h)(0x60DF257C)
+I (CanIf_Cbk.h)(0x60DF2511)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5F5166EE)
+I (asdebug.h)(0x60DF26FB)
+I (CanTp_Cbk.h)(0x60DF2653)
+I (ringbuffer.h)(0x60DF30F8)
+F (.\CanIf_Cfg.h)(0x60DF24EA)()
+F (.\CanIf_Cbk.h)(0x60DF2511)()
+F (.\CanIf.h)(0x60DF252B)()
+F (.\CanIf_Types.h)(0x60DF2554)()
+F (.\CanIf_SpecialPdus.h)(0x60DF257C)()
+F (.\CanIf_ConfigTypes.h)(0x60DF259A)()
+F (.\CanTp.c)(0x60E03D58)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/portable/GCC/ARM_CM3-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/RTOS2/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/inc-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/cantp.o -MD)
+I (CanTp.h)(0x60DF266B)
+I (Modules.h)(0x60DF30C2)
+I (std_type.h)(0x60DF3111)
+I (Platform_types.h)(0x60DF30E0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5F5166EE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F5166EE)
+I (ComStack_Types.h)(0x60DF36A7)
+I (CanTp_Cfg.h)(0x60E03577)
+I (CanTp_Types.h)(0x60DF262F)
+I (CanTp_Cbk.h)(0x60DF2653)
+I (Det.h)(0x60DF2729)
+I (Det_Cfg.h)(0x60DF275B)
+I (CanIf.h)(0x60DF252B)
+I (CanIf_Types.h)(0x60DF2554)
+I (CanIf_Cfg.h)(0x60DF24EA)
+I (Can.h)(0x60DF37F1)
+I (Can_Cfg.h)(0x60DF2493)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x58258CCC)
+I (RTE\_Target_1\RTE_Components.h)(0x60DEA6B8)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F2582)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F2582)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D174C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D1778)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x58258CCC)
+I (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_can.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FA3F80)
+I (cpu.h)(0x60DF2713)
+I (CanIf_ConfigTypes.h)(0x60DF259A)
+I (CanIf_SpecialPdus.h)(0x60DF257C)
+I (PduR_CanTp.h)(0x60DF3401)
+I (PduR.h)(0x60DF3143)
+I (PduR_Cfg.h)(0x60DF3424)
+I (PduR_Types.h)(0x60DF351B)
+I (PduR_PbCfg.h)(0x60DF36F5)
+I (PduR_If.h)(0x60DF34EE)
+I (PduR_Com.h)(0x60DF3462)
+I (PduR_CanIf.h)(0x60DF3179)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5F5166EE)
+I (asdebug.h)(0x60DF26FB)
+F (.\CanTp_Types.h)(0x60DF262F)()
+F (.\CanTp_Cfg.h)(0x60E03577)()
+F (.\CanTp_Cbk.h)(0x60DF2653)()
+F (.\CanTp.h)(0x60DF266B)()
+F (.\asdebug.h)(0x60DF26FB)()
+F (.\cpu.h)(0x60DF2713)()
+F (.\Det.h)(0x60DF2729)()
+F (.\Det_Cfg.h)(0x60DF275B)()
+F (.\MCU.h)(0x60DF2772)()
+F (.\Modules.h)(0x60DF30C2)()
+F (.\Platform_types.h)(0x60DF30E0)()
+F (.\ringbuffer.h)(0x60DF30F8)()
+F (.\std_type.h)(0x60DF3111)()
+F (.\PduR.c)(0x60DF312F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/portable/GCC/ARM_CM3-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/RTOS2/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/inc-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/pdur.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5F5166EE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5F5166EE)
+I (PduR.h)(0x60DF3143)
+I (Modules.h)(0x60DF30C2)
+I (std_type.h)(0x60DF3111)
+I (Platform_types.h)(0x60DF30E0)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdbool.h)(0x5F5166EE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F5166EE)
+I (PduR_Cfg.h)(0x60DF3424)
+I (PduR_Types.h)(0x60DF351B)
+I (ComStack_Types.h)(0x60DF36A7)
+I (PduR_PbCfg.h)(0x60DF36F5)
+I (CanIf.h)(0x60DF252B)
+I (CanIf_Types.h)(0x60DF2554)
+I (CanIf_Cfg.h)(0x60DF24EA)
+I (Can.h)(0x60DF37F1)
+I (Can_Cfg.h)(0x60DF2493)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x58258CCC)
+I (RTE\_Target_1\RTE_Components.h)(0x60DEA6B8)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F2582)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F2582)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D174C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D1778)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x58258CCC)
+I (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_can.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FA3F80)
+I (cpu.h)(0x60DF2713)
+I (CanIf_ConfigTypes.h)(0x60DF259A)
+I (CanIf_SpecialPdus.h)(0x60DF257C)
+I (CanTp.h)(0x60DF266B)
+I (CanTp_Cfg.h)(0x60E03577)
+I (CanTp_Types.h)(0x60DF262F)
+I (PduR_If.h)(0x60DF34EE)
+I (PduR_Com.h)(0x60DF3462)
+I (PduR_CanIf.h)(0x60DF3179)
+I (asdebug.h)(0x60DF26FB)
+F (.\PduR.h)(0x60DF3143)()
+F (.\PduR_CanIf.c)(0x60DF315F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/portable/GCC/ARM_CM3-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/RTOS2/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/inc-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/pdur_canif.o -MD)
+F (.\PduR_CanIf.h)(0x60DF3179)()
+F (.\PduR_CanTp.c)(0x60DF3198)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/portable/GCC/ARM_CM3-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/RTOS2/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/inc-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/pdur_cantp.o -MD)
+F (.\PduR_CanTp.h)(0x60DF3401)()
+F (.\PduR_Cfg.h)(0x60DF3424)()
+F (.\PduR_Com.c)(0x60DF3440)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/portable/GCC/ARM_CM3-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/RTOS2/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/inc-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/pdur_com.o -MD)
+F (.\PduR_Com.h)(0x60DF3462)()
+F (.\PduR_If.h)(0x60DF34EE)()
+F (.\PduR_Types.h)(0x60DF351B)()
+F (.\ComStack_Types.h)(0x60DF36A7)()
+F (.\PduR_PbCfg.h)(0x60DF36F5)()
+F (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\CMSIS\RTOS2\FreeRTOS\Source\ARM\clib_arm.c)(0x5D8853E4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/portable/GCC/ARM_CM3-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/RTOS2/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/inc-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/clib_arm.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F5166EE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5F5166EE)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\FreeRTOS.h)(0x5EAA7808)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x5D8853E4)
+I (RTE\_Target_1\RTE_Components.h)(0x60DEA6B8)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x58258CCC)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F2582)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F2582)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D174C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D1778)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x58258CCC)
+I (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_can.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5D8853E4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5F5166EE)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\projdefs.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\portable.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\deprecated_definitions.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\portable\GCC\ARM_CM3\portmacro.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\mpu_wrappers.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\task.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\list.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\semphr.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\queue.h)(0x5EAA7808)
+F (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\CMSIS\RTOS2\FreeRTOS\Source\cmsis_os2.c)(0x5EAA7802)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/portable/GCC/ARM_CM3-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/RTOS2/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/inc-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/cmsis_os2.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5F5166EE)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\RTOS2\Include\cmsis_os2.h)(0x5E835B2E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F5166EE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5F5166EE)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D174C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D1778)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\RTOS2\Include\os_tick.h)(0x5E835B2E)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\FreeRTOS.h)(0x5EAA7808)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x5D8853E4)
+I (RTE\_Target_1\RTE_Components.h)(0x60DEA6B8)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x58258CCC)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F2582)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F2582)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x58258CCC)
+I (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_can.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5D8853E4)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\projdefs.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\portable.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\deprecated_definitions.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\portable\GCC\ARM_CM3\portmacro.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\mpu_wrappers.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\task.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\list.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\event_groups.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\timers.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\semphr.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\queue.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\CMSIS\RTOS2\FreeRTOS\Include\freertos_mpool.h)(0x5EAA7802)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\CMSIS\RTOS2\FreeRTOS\Include\freertos_os2.h)(0x5EAA7802)
+F (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\CMSIS\RTOS2\FreeRTOS\Source\os_systick.c)(0x5D8853E4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/portable/GCC/ARM_CM3-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/RTOS2/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/inc-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/os_systick.o -MD)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\RTOS2\Include\os_tick.h)(0x5E835B2E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F5166EE)
+I (RTE\_Target_1\RTE_Components.h)(0x60DEA6B8)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x58258CCC)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F2582)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F2582)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D174C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D1778)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x58258CCC)
+I (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_can.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FA3F80)
+F (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\src\misc.c)(0x52FA3F80)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/portable/GCC/ARM_CM3-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/RTOS2/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/inc-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/misc.o -MD)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x58258CCC)
+I (RTE\_Target_1\RTE_Components.h)(0x60DEA6B8)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F5166EE)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F2582)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D174C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D1778)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x58258CCC)
+I (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_can.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52FA3F80)
+F (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\src\stm32f10x_can.c)(0x52FA3F80)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/portable/GCC/ARM_CM3-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/RTOS2/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/inc-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/stm32f10x_can.o -MD)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_can.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x58258CCC)
+I (RTE\_Target_1\RTE_Components.h)(0x60DEA6B8)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F5166EE)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F2582)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D174C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D1778)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x58258CCC)
+I (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FA3F80)
+F (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\src\stm32f10x_gpio.c)(0x52FA3F80)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/portable/GCC/ARM_CM3-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/RTOS2/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/inc-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/stm32f10x_gpio.o -MD)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x58258CCC)
+I (RTE\_Target_1\RTE_Components.h)(0x60DEA6B8)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F5166EE)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F2582)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D174C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D1778)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x58258CCC)
+I (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_can.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FA3F80)
+F (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\src\stm32f10x_rcc.c)(0x52FA3F80)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/portable/GCC/ARM_CM3-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/RTOS2/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/inc-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/stm32f10x_rcc.o -MD)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x58258CCC)
+I (RTE\_Target_1\RTE_Components.h)(0x60DEA6B8)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F5166EE)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F2582)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D174C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D1778)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x58258CCC)
+I (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_can.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FA3F80)
+F (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\src\stm32f10x_rtc.c)(0x52FA3F80)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/portable/GCC/ARM_CM3-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/RTOS2/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/inc-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/stm32f10x_rtc.o -MD)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x58258CCC)
+I (RTE\_Target_1\RTE_Components.h)(0x60DEA6B8)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F5166EE)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F2582)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D174C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D1778)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x58258CCC)
+I (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_can.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FA3F80)
+F (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\src\stm32f10x_tim.c)(0x52FA3F80)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/portable/GCC/ARM_CM3-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/RTOS2/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/inc-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/stm32f10x_tim.o -MD)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x58258CCC)
+I (RTE\_Target_1\RTE_Components.h)(0x60DEA6B8)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F5166EE)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F2582)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D174C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D1778)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x58258CCC)
+I (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_can.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FA3F80)
+F (RTE\Device\STM32F103C8\RTE_Device.h)(0x59283406)()
+F (RTE\Device\STM32F103C8\startup_stm32f10x_md.s)(0x60E12993)(--target=arm-arm-none-eabi -mcpu=cortex-m3 -masm=auto -c-gdwarf-3 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/Device/STM32F103C8-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/portable/GCC/ARM_CM3-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/RTOS2/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/inc-Wa,armasm,--pd,"__UVISION_VERSION SETA 532" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"STM32F10X_MD SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_stm32f10x_md.o)
+F (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)()
+F (RTE\Device\STM32F103C8\system_stm32f10x.c)(0x58258CCC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/portable/GCC/ARM_CM3-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/RTOS2/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/inc-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/system_stm32f10x.o -MD)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x58258CCC)
+I (RTE\_Target_1\RTE_Components.h)(0x60DEA6B8)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F5166EE)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F2582)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D174C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D1778)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x58258CCC)
+I (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_can.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FA3F80)
+F (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\CMSIS\RTOS2\FreeRTOS\Source\freertos_evr.c)(0x5EAA7802)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/portable/GCC/ARM_CM3-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/RTOS2/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/inc-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/freertos_evr.o -MD)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\FreeRTOS.h)(0x5EAA7808)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5F5166EE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F5166EE)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x5D8853E4)
+I (RTE\_Target_1\RTE_Components.h)(0x60DEA6B8)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x58258CCC)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F2582)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F2582)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D174C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D1778)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x58258CCC)
+I (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_can.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5D8853E4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5F5166EE)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\projdefs.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\portable.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\deprecated_definitions.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\portable\GCC\ARM_CM3\portmacro.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\mpu_wrappers.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\task.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\list.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\semphr.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\queue.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\event_groups.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\timers.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\stream_buffer.h)(0x5EAA7808)
+F (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\event_groups.c)(0x5EAA7808)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/portable/GCC/ARM_CM3-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/RTOS2/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/inc-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/event_groups.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5F5166EE)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\FreeRTOS.h)(0x5EAA7808)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5F5166EE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F5166EE)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x5D8853E4)
+I (RTE\_Target_1\RTE_Components.h)(0x60DEA6B8)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x58258CCC)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F2582)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F2582)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D174C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D1778)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x58258CCC)
+I (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_can.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5D8853E4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5F5166EE)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\projdefs.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\portable.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\deprecated_definitions.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\portable\GCC\ARM_CM3\portmacro.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\mpu_wrappers.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\task.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\list.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\timers.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\event_groups.h)(0x5EAA7808)
+F (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\list.c)(0x5EAA7808)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/portable/GCC/ARM_CM3-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/RTOS2/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/inc-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/list.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5F5166EE)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\FreeRTOS.h)(0x5EAA7808)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5F5166EE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F5166EE)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x5D8853E4)
+I (RTE\_Target_1\RTE_Components.h)(0x60DEA6B8)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x58258CCC)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F2582)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F2582)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D174C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D1778)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x58258CCC)
+I (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_can.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5D8853E4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5F5166EE)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\projdefs.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\portable.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\deprecated_definitions.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\portable\GCC\ARM_CM3\portmacro.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\mpu_wrappers.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\list.h)(0x5EAA7808)
+F (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\portable\GCC\ARM_CM3\port.c)(0x5EAA7808)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/portable/GCC/ARM_CM3-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/RTOS2/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/inc-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/port.o -MD)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\FreeRTOS.h)(0x5EAA7808)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5F5166EE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F5166EE)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x5D8853E4)
+I (RTE\_Target_1\RTE_Components.h)(0x60DEA6B8)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x58258CCC)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F2582)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F2582)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D174C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D1778)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x58258CCC)
+I (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_can.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5D8853E4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5F5166EE)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\projdefs.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\portable.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\deprecated_definitions.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\portable\GCC\ARM_CM3\portmacro.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\mpu_wrappers.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\task.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\list.h)(0x5EAA7808)
+F (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\portable\MemMang\heap_4.c)(0x5EAA780A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/portable/GCC/ARM_CM3-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/RTOS2/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/inc-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/heap_4.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5F5166EE)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\FreeRTOS.h)(0x5EAA7808)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5F5166EE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F5166EE)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x5D8853E4)
+I (RTE\_Target_1\RTE_Components.h)(0x60DEA6B8)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x58258CCC)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F2582)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F2582)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D174C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D1778)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x58258CCC)
+I (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_can.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5D8853E4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5F5166EE)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\projdefs.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\portable.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\deprecated_definitions.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\portable\GCC\ARM_CM3\portmacro.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\mpu_wrappers.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\task.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\list.h)(0x5EAA7808)
+F (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\queue.c)(0x5EAA780A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/portable/GCC/ARM_CM3-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/RTOS2/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/inc-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/queue.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5F5166EE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5F5166EE)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\FreeRTOS.h)(0x5EAA7808)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5F5166EE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F5166EE)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x5D8853E4)
+I (RTE\_Target_1\RTE_Components.h)(0x60DEA6B8)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x58258CCC)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F2582)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F2582)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D174C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D1778)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x58258CCC)
+I (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_can.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5D8853E4)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\projdefs.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\portable.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\deprecated_definitions.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\portable\GCC\ARM_CM3\portmacro.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\mpu_wrappers.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\task.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\list.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\queue.h)(0x5EAA7808)
+F (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\tasks.c)(0x5EAA780A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/portable/GCC/ARM_CM3-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/RTOS2/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/inc-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/tasks.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5F5166EE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5F5166EE)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\FreeRTOS.h)(0x5EAA7808)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5F5166EE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F5166EE)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x5D8853E4)
+I (RTE\_Target_1\RTE_Components.h)(0x60DEA6B8)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x58258CCC)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F2582)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F2582)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D174C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D1778)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x58258CCC)
+I (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_can.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5D8853E4)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\projdefs.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\portable.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\deprecated_definitions.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\portable\GCC\ARM_CM3\portmacro.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\mpu_wrappers.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\task.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\list.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\timers.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\stack_macros.h)(0x5EAA7808)
+F (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\timers.c)(0x5EAA780A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-3 -O1 -ffunction-sections -w-I./RTE/Device/STM32F103C8-I./RTE/RTOS-I./RTE/_Target_1-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.3.1/Source/portable/GCC/ARM_CM3-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/Core/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/ARM/CMSIS/5.7.0/CMSIS/RTOS2/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/Include-IC:/Users/amagd/AppData/Local/Arm/Packs/Keil/STM32F1xx_DFP/2.3.0/Device/StdPeriph_Driver/inc-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F10X_MD -D_RTE_-o ./objects/timers.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x5F5166EE)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\FreeRTOS.h)(0x5EAA7808)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x5F5166EE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x5F5166EE)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x5D8853E4)
+I (RTE\_Target_1\RTE_Components.h)(0x60DEA6B8)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\stm32f10x.h)(0x58258CCC)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm3.h)(0x5E8F2582)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F2582)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E835B22)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armclang.h)(0x5E8F2582)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_compat.h)(0x5E0D174C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x5E0D1778)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\Include\system_stm32f10x.h)(0x58258CCC)
+I (RTE\Device\STM32F103C8\stm32f10x_conf.h)(0x52FA4230)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_can.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_rtc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\stm32f10x_tim.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.3.0\Device\StdPeriph_Driver\inc\misc.h)(0x52FA3F80)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x5D8853E4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x5F5166EE)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\projdefs.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\portable.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\deprecated_definitions.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\portable\GCC\ARM_CM3\portmacro.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\mpu_wrappers.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\task.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\list.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\queue.h)(0x5EAA7808)
+I (C:\Users\amagd\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.3.1\Source\include\timers.h)(0x5EAA7808)
+F (RTE\RTOS\FreeRTOSConfig.h)(0x5D8853E4)()
