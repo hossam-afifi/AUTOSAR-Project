@@ -1,0 +1,83 @@
+
+{
+  "alarm" : 
+  [
+    
+    {
+      "ACTION" : "ACTIVATETASK",
+      "ACTION_S" : 
+      {
+        "TASK" : "cantxrx"
+      },
+      "AUTOSTART" : "true",
+      "AUTOSTART_S" : 
+      {
+        "ALARMTIME" : 250,
+        "APPMODE" : 
+        [
+          
+          {
+            "VALUE" : "std"
+          }
+        ],
+        "CYCLETIME" : 250
+      },
+      "COUNTER" : "SystemCounter",
+      "NAME" : "cantxrx_trigger"
+    }
+  ],
+  "event" : [],
+  "isr" : 
+  [
+    
+    {
+      "CATEGORY" : 2,
+      "KIND" : "ISR",
+      "NAME" : "isr_canrx0",
+      "PRIORITY" : 6,
+      "SOURCE" : "CAN1_RX0_IRQ",
+      "STACKSIZE" : 200
+    },    
+    {
+      "CATEGORY" : 2,
+      "KIND" : "ISR",
+      "NAME" : "isr_canrx1",
+      "PRIORITY" : 6,
+      "SOURCE" : "CAN1_RX1_IRQ",
+      "STACKSIZE" : 200
+    },    
+    {
+      "CATEGORY" : 2,
+      "KIND" : "ISR",
+      "NAME" : "isr_cansce",
+      "PRIORITY" : 6,
+      "SOURCE" : "CAN1_SCE_IRQ",
+      "STACKSIZE" : 200
+    },    
+    {
+      "CATEGORY" : 2,
+      "KIND" : "ISR",
+      "NAME" : "isr_cantx",
+      "PRIORITY" : 6,
+      "SOURCE" : "CAN1_TX_IRQ",
+      "STACKSIZE" : 200
+    }
+  ],
+  "resource" : [],
+  "task" : 
+  [
+    
+    {
+      "ACTIVATION" : 1,
+      "AUTOSTART" : "false",
+      "KIND" : "Task",
+      "NAME" : "cantxrx",
+      "NONPREEMPTABLE" : "false",
+      "PRIORITY" : 1,
+      "SCHEDULE" : "FULL",
+      "STACKSIZE" : 300,
+      "USEFLOAT" : "false",
+      "USEINTERNALRESOURCE" : "false"
+    }
+  ]
+}
